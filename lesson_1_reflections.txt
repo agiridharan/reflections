@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It minimized the code I need to look at to only the differences between the previous file and the current file.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Having an entire file's history allows me to look back at previous mistakes that I have made in my code and the solutions that I have came up with. Therefore, if I encounter a similar problem in the future, I don't have to waste time going back and looking at what I came up with. In addition, I can reset my code to a certain point if I dislike the changes that I have added. This allows me to save time rewriting the code.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Manual commits allow me to commit at logical endpoints in my code. However, it also gives rise to user errors, such as failing to commit code for long periods of time. On the other hand, automatically saved code allows regular saved versions of code. However, these versions might be extraneous and result in nonsensical and confusing code. 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    For systems like Git, saving multiples files with one commit is important because the files are possibly related and could refer to each other. On the other hand, files like google docs are likely individualized. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log allows us to retrive the ID of the previous versions of the files. Using git diff to compare a file ID with the ID of the file before it allows us to see the changes that were made between to the newer file. 
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Using version control we can reset our code to the last file that did not have the errors before.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I wante to build my own Android App
